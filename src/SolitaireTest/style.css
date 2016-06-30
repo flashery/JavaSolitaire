@@ -1,0 +1,23 @@
+#header{
+    -fx-background-color: #3A5795; 
+    -fx-text-fill: #dddddd;
+    -fx-font-size: 30px;
+}
+.pane-top {
+    -fx-border-color: #dddddd; 
+    -fx-border-style: dashed; 
+    -fx-border-width: 1;
+}
+#solitaire-content {
+
+}
+.card {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 3, 0, 0, 0);
+}
+/*
+.stack-pane {
+    -fx-background-color: #000000; 
+    -fx-border-color: #dddddd; 
+    -fx-border-style: dashed; 
+    -fx-border-width: 1;
+}*/
