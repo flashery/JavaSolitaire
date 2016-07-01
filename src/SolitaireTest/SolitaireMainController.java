@@ -22,10 +22,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.ResourceBundle;
-import java.util.Stack;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javafx.event.EventType;
 import javafx.scene.Node;
 
 /**
@@ -80,7 +76,7 @@ public class SolitaireMainController implements Initializable {
         acePane1.addEventFilter(DragEvent.DRAG_OVER, mouseOver);
         acePane2.addEventFilter(DragEvent.DRAG_OVER, mouseOver);
         acePane3.addEventFilter(DragEvent.DRAG_OVER, mouseOver);
-        
+
         cardDisplay();
     }
 
@@ -237,7 +233,7 @@ public class SolitaireMainController implements Initializable {
                     showDeckPane.getChildren().add(card);
                     System.out.print(card.getName() + " | ");
                 }
-                cardLoc += 15;
+                //cardLoc += 15;
                 counter++;
             }
         } else {
