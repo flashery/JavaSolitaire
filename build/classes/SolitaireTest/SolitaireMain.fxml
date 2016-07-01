@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="687.0" style="-fx-background-color: #056b00;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SolitaireTest.SolitaireMainController">
+   <children>
+      <Pane id="solitaire-content" fx:id="panel" layoutY="147.0" prefHeight="318.0" prefWidth="687.0" AnchorPane.bottomAnchor="67.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="215.0" />
+      <Label id="header" alignment="CENTER" contentDisplay="TOP" text="Solitaire" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <StackPane id="foundation" fx:id="hiddenDeckPane" layoutX="7.0" layoutY="79.0" onMousePressed="#hiddenDeckClick" prefHeight="130.0" prefWidth="90.0" styleClass="pane-top" />
+      <StackPane id="foundation" fx:id="acePane0" layoutX="297.0" layoutY="79.0" prefHeight="130.0" prefWidth="90.0" styleClass="pane-top" />
+      <StackPane id="foundation" fx:id="acePane1" layoutX="395.0" layoutY="79.0" prefHeight="130.0" prefWidth="90.0" styleClass="pane-top" />
+      <StackPane id="foundation" layoutX="488.0" layoutY="20.0" prefHeight="130.0" prefWidth="90.0" />
+      <StackPane id="foundation" fx:id="acePane2" layoutX="492.0" layoutY="79.0" prefHeight="130.0" prefWidth="90.0" styleClass="pane-top" />
+      <StackPane id="foundation" fx:id="acePane3" layoutX="587.0" layoutY="79.0" prefHeight="130.0" prefWidth="90.0" styleClass="pane-top" />
+      <StackPane fx:id="showDeckPane" alignment="CENTER_LEFT" layoutX="130.0" layoutY="81.0" onMousePressed="#showDeckClick" prefHeight="130.0" prefWidth="139.0" />
+   </children>
+</AnchorPane>
